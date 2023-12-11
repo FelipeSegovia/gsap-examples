@@ -1,0 +1,13 @@
+.card-component {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  box-shadow: -5px 13px 25px -8px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: -5px 13px 25px -8px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: -5px 13px 25px -8px rgba(0, 0, 0, 0.69);
+}

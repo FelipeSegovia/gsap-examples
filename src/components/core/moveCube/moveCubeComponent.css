@@ -1,0 +1,7 @@
+.content-card{
+  display: flex;
+}
+
+.content-card > div {
+  margin: 10px
+}
