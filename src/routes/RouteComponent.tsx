@@ -25,7 +25,15 @@ const RouteComponent = () => {
                 <li>
                   <a href="/scroll-trigger/start-to-end">Start to end</a>
                 </li>
+                <li>
+                  <a href="/scroll-trigger/change-color">Change color background</a>
+                </li>
               </ul>
+            </li>
+            <li>
+              <h2>
+                <a href="/timeline">Timeline</a>
+              </h2>
             </li>
           </ul>
         </nav>

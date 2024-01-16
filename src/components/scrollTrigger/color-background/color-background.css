@@ -1,0 +1,20 @@
+.container-bg{
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.first-panel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-40%);
+  border-radius: 100%;
+  background: linear-gradient(0deg, rgba(7,179,186,1) 0%, rgba(13,33,194,0.6348914565826331) 46%, rgba(23,204,175,0.5592612044817927) 100%);
+  width: 200vmax;
+  height: 200vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

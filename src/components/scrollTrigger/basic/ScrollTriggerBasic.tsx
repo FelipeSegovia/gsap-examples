@@ -9,6 +9,11 @@ const ScrollTriggerBasic = () => {
     gsap.to('.c', {
       scrollTrigger: {
         trigger: '.c',
+        markers: true,
+        start: "top center", // Define que donde inicia la acción
+        end: "bottom +=500",
+        scrub: false, //Determina la suavidad del desplazamiento
+        pin: ".b", // Fija el component y te sigue por el viewport hasta el scroller-end
         /**
          * las acciones que se pueden poner en toggleActions son:
          *  - play
